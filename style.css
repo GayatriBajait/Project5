@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+}
+.sidebar {
+    width: 250px;
+    background: #111;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+}
+.sidebar h2 {
+    color: #f04;
+}
+.sidebar h3 {
+    color: #f04;
+}
+
+.sidebar h4 {
+    color: rgb(255, 255, 255);
+}
+
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+}
+.sidebar a.active {
+    color: red;
+}
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background: #f4f4f4;
+}
+.email-btn {
+    background: blue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}

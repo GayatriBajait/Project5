@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOT </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>CRM<span style="color:rgb(255, 250, 250)">SPOT</span></h2>
+        <br>
+        <h4 href="#" class="active">Dashboard</h4>
+        <a href="#">Leads</a>
+        <br>
+        <a href="#">Lead Management</a>
+        <br>
+        <a href="#">Projects</a>
+        <br>
+        <a href="#">Quotes</a>
+        <br>
+        <a href="#">Finance Management</a>
+        <br>
+        <a href="#">Contacts</a>
+        <br>
+        <a href="#">Tasks</a>
+        <br>
+        <a href="#">Employees</a>
+        <br>
+        <a href="#">Email</a>
+        <br>
+        <h3 href="#">Organization</h3>
+        <br>
+        <a href="#">Integration</a>
+    </div>
+    <div class="main-content">
+        <h1>Organizations</h1>
+        <table>
+            <tr>
+                <th>Organization Name</th>
+                <th>Project Name</th>
+                <th>Total</th>
+                <th>Balance</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>qwerty</td>
+                <td>cr</td>
+                <td>333.00</td>
+                <td>0</td>
+                <td>Completed</td>
+                <td><button class="email-btn" onclick="sendEmail()">Email</button></td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        function sendEmail() {
+            alert("Email sent successfully!");
+        }
+    </script>
+</body>
+</html>
